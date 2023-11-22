@@ -1,6 +1,6 @@
 Thus, if project=poc, environment=test executed commands are:
 ```
-az account set --subscription d7d0b744-7dd4-494d-b357-0e13c93cf89e
+az account set --subscription XXXX-YYYYY-ZZZZZ
 ```
 Run environment variables example:
 ```
