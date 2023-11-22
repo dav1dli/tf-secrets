@@ -32,7 +32,7 @@ Set access policy:
 ```
 az ad user list --display-name "User Name" | jq -r ".[].id"
 az keyvault set-policy --name  ${KV_NAME} \
-  --object-id $(z ad user list --display-name "David Liderman" | jq -r ".[].id") \
+  --object-id $(z ad user list --display-name "John Doe" | jq -r ".[].id") \
   --key-permissions Get List Encrypt Decrypt
 ```
 Get key ID:
